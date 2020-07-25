@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = "EMVCore.framework"
     s.platform     = :ios, '8.0'
       
-    s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Frameworks/EMVCore.framework"' }
+    s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/EMVCore.framework"' }
 end
